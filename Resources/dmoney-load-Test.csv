@@ -1,0 +1,9 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1665293447067,172,Login to user,200,OK,Thread Group 1-1,text,true,,533,314,1,1,http://dmoney.professionaltrainingbd.com/user/login,148,0,108
+1665293447388,6792,Get user list,200,OK,Thread Group 1-1,text,true,,1899361,411,1,1,http://dmoney.professionaltrainingbd.com/user/list,5338,0,0
+1665293454400,31,Create a user,201,Created,Thread Group 1-1,text,true,,583,604,1,1,http://dmoney.professionaltrainingbd.com/user/create,31,0,0
+1665293454433,13,Search the newly created user by id,200,OK,Thread Group 1-1,text,true,,316,420,1,1,http://dmoney.professionaltrainingbd.com/user/search?id=101,13,0,0
+1665293454446,23,Search the newly created user by phone number,200,OK,Thread Group 1-1,text,true,,546,438,1,1,http://dmoney.professionaltrainingbd.com/user/search?phone_number=01500128139,23,0,0
+1665293454470,12,Search the newly created user by email,200,OK,Thread Group 1-1,text,true,,554,441,1,1,http://dmoney.professionaltrainingbd.com/user/search?email=Wilford18@hotmail.com,12,0,0
+1665293454483,16,Update the user phone number,200,OK,Thread Group 1-1,text,true,,380,483,1,1,http://dmoney.professionaltrainingbd.com/user/update/10650,16,0,0
+1665293454501,15,Delete the user,200,OK,Thread Group 1-1,text,true,,343,441,1,1,http://dmoney.professionaltrainingbd.com/user/delete/10650,15,0,0
