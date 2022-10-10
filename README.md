@@ -1,7 +1,7 @@
 # dmoney-api-jmx
 
-This is a Jmeter Project where the DmoneyAPI is tested by creating test cases for Login to user, Get user list, Create a user, Search the newly created user by id, Search the newly created user by phone number, Search the newly created user by email
-and also performing Update the user phone number and Delete the user operations. The ramp-up and the number of threads were kept as Create a user can also be used from the csv file without explicitly writing it in the body.
+<p>This is a Jmeter Project where the DmoneyAPI is tested by creating test cases for <b>Login to user</b>, <b>Get user list</b>, <b>Create a user</b>, <b>Search the newly created user by id</b>, <b>Search the newly created user by phone number</b>, <b>Search the newly created user by email</b>
+and also performing <b>Update the user phone number</b> and <b>Delete the user</b> operations. The ramp-up and the number of threads were kept as Create a user can also be used from the csv file without explicitly writing it in the body.</p>
 
 Steps to run this project:
 
@@ -12,6 +12,7 @@ Steps to run this project:
 ## Whole project structure in Jmeter
    ![dmoneyload1](https://user-images.githubusercontent.com/93023509/194761666-9aa8bbb6-8852-4f90-8a16-66f25da0aab2.PNG)
  - All test cases passed can be viewed from Jmeter result tree:
+    
     ![dmoneyload2](https://user-images.githubusercontent.com/93023509/194761747-5f7df269-860f-4548-8a71-e9383580fe33.PNG)
 
 ## Summery report in Jmeter.
